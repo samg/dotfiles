@@ -1,0 +1,17 @@
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[user]
+    email = sam@aboutus.org
+    name = Sam Goldstein
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log -p
+    l = log --graph --pretty=format:'%Cred%h%Creset - %Cblue%an%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+    la = log --graph --pretty=format:'%Cred%h%Creset - %Cblue%an%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --all
+    pr = pull --rebase
