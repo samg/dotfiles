@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/opt/local/bin:/usr/local/mysql/bin:~/dev/fieldmarshal:~/dev/android-sdk/tools:~/dev/eclipse:$PATH
+export PATH=/opt/ruby-enterprise-1.8.7-2011.03/bin:/usr/local/bin:/opt/local/bin:/usr/local/mysql/bin:~/dev/fieldmarshal:~/dev/android-sdk/tools:~/dev/eclipse:$PATH
 export JAVA_HOME=/Library/Java/Home
 
 alias sc='vim ~/.bashrc && source ~/.bashrc'
@@ -14,8 +14,11 @@ alias j5='cd /www/aboutus/johnny5'
 alias dws='cd /www/aboutus/dotwiki'
 alias dc='cd /www/aboutus/dotcom'
 alias ux='cd /www/aboutus/ux'
-alias hs='cd /www/aboutus/hive-scripts'
+alias sr='cd /www/aboutus/site-report'
+alias secure='cd /www/aboutus/secure'
 alias dp='perl ~/dev/diff_painter/diff_painter.pl | cat | more -r'
+alias b="bundle exec "
+alias top=htop
 # put this in your .bashrc or .profile
 function parse_git_dirty {
   [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "*"
@@ -28,3 +31,5 @@ PS1='\n\n\w $(parse_git_branch) $ '
 source ~/.git-completion.sh
 export TERM=xterm-color
 export VISUAL=`which vim`
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
