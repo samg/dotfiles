@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/sam/dev/rpm_site/java_collector'
-let g:netrw_dirhist_2='/Users/sam/dev/rpm_site/java_collector/config'
-let g:netrw_dirhist_3='/Users/sam/dev/rpm_site/java_collector/bin'
-let g:netrw_dirhist_4='/Users/sam/dev/agent-build-scripts/dotnet_agent/jenkins'
-let g:netrw_dirhist_5='/Users/sam/notes/reviews/2012-Q4'
-let g:netrw_dirhist_6='/Users/sam/dev/agents-dashboard/config/initializers'
-let g:netrw_dirhist_7='/Users/sam/.vim/.git'
